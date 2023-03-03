@@ -1,3 +1,11 @@
+div,input,textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
 .profile {
     width: 100px;
     display: block; 
@@ -9,6 +17,8 @@
     text-align: end;
     font-size: 16px;
 }
+
+
 
 /* p {
     text-align: center;
@@ -99,4 +109,111 @@
     float: left;
 }
 
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: brightness(70%) saturate(200%); */
+    padding: 1px;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.main-content {
+    text-align: top;
+    float: left;
+    color: #eee;
+}
+
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    z-index: 5;
+}
+
+.explain-box {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: -40px;
+    box-sizing: border-box;
+}
+/* 개발 처음 작성해두면 편리한 요소들 */
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.form-background {
+    background-color: black;
+    padding: 30px;
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid balck;
+    border-radius: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.yellow-button {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+}
